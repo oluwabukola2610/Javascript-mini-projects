@@ -1,0 +1,77 @@
+body, main {
+  font-family: 'Montserrat', sans-serif;
+  color: #2c3345;
+  background-color: #ecedf3;
+  max-width: 992;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 992px;
+}
+
+header .container {
+  background-color: #ffffff;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+#hero .container {
+  padding: 0;
+}
+
+@media screen and (min-width: 767px) {
+  #hero #hero-carousel .carousel-inner .carousel-item {
+    height: 500px;
+  }
+  #hero #hero-carousel .carousel-inner .carousel-item img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+}
+
+#food-list .container {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+#food-list .container h2 {
+  font-weight: 700;
+}
+
+#food-list .card {
+  -webkit-box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.2);
+          box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.2);
+}
+
+#food-list .card .card-footer {
+  background-color: #ffffff;
+  border: none;
+  font-size: 1.5rem;
+}
+
+#food-list .card a.btn {
+  padding: .75rem 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#food-list .card-title {
+  font-weight: 700;
+}
+
+footer {
+  background-color: tomato;
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
